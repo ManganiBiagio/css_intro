@@ -3,15 +3,21 @@
 
 <head>
     <title>css_intro - Il mio CV</title>
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <style>
+        /* contenuto css come se lo scrivessimo su file esterno */
+    </style>
 </head>
 
 <body>
     <header>
         <!-- immagine del profilo -->
-        <img src="img/download.png" alt="foto profilo utente">
+        <img src="img/download.png" id="user-img" alt="foto profilo utente">
 
         <!-- titolo della pagina -->
         <h1>Mario Rossi - Full Stack Web Developer</h1>
+        
     </header>
 
     <main>
@@ -19,34 +25,35 @@
         <!-- ogni sezione avrà un titolo e poi una lista di voci formate da un titolo e paragrafo -->
         <section>
             <!-- titolo sezioni -->
-            <h2>Formazione</h2>
+            <h2 class="section-title">Formazione</h2>
+            <div>
+                <h3 class="section-subtitle">scuola</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In sequi sit neque itaque ab ducimus, excepturi assumenda vel! Enim voluptatum tempora similique repellat cum error, fugiat dolor nobis quisquam cupiditate?</p>
+            </div>
         </section>
 
         <section>
             <!-- sezione formazione -->
-            <h2>Esperienze lavorative</h2>
+            <h2 class="section-title">Esperienze lavorative</h2>
             <!-- titolo sezione -->
+           
             <!-- esperienza 1 -->
             <div>
-                <h3>Esperienza</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ullam maxime dolorem sapiente tempore ratione ipsum libero quod explicabo laborum nostrum neque minima voluptatum laudantium, dignissimos cupiditate inventore sed labore?</p>
-            </div>
-            <div>
-                <h3>esperienza 1</h3>
+                <h3 class="section-subtitle">esperienza 1</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quas cum nihil facilis nam explicabo.
                     Consectetur nihil omnis qui eveniet illo saepe ullam esse id. Ullam asperiores nobis sapiente
                     commodi.</p>
             </div>
             <!-- esperienza 2 -->
             <div>
-                <h3>esperienza 2</h3>
+                <h3 class="section-subtitle">esperienza 2</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut excepturi ea, nobis earum omnis,
                     impedit perferendis exercitationem deleniti culpa sint neque consequatur provident nisi repudiandae?
                     Nam temporibus nulla illo dolore.</p>
             </div>
             <!-- esperienza 3 -->
             <div>
-                <h3>esperienza 3</h3>
+                <h3 class="section-subtitle">esperienza 3</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta a facere ea numquam veritatis odio
                     sunt, ducimus corrupti dolor voluptatibus officia quaerat saepe vitae autem. Doloribus nostrum culpa
                     aliquid quia.</p>
@@ -54,9 +61,9 @@
         </section>
 
         <!-- sezione interessi -->
-        <h2>Interessi</h2>
+        <h2 class="section-title">Interessi</h2>
         <div>
-            <h3>Interesse 1</h3>
+            <h3 class="section-subtitle">Interesse 1</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate exercitationem totam esse, vero vel rem dolorum. Unde, autem saepe qui blanditiis veritatis neque numquam quidem! Animi tenetur enim vel pariatur.</p>
         </div>
 

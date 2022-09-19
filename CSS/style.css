@@ -1,0 +1,38 @@
+/*
+commento
+*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    background-color:#289d2373;
+    text-align: center;
+    color: #083c18;
+
+}
+
+#user-img {
+    width: 150px;
+}
+
+.section-title{
+    color: #0ad552;
+    text-decoration: underline;
+
+}
+
+.section-subtitle{
+    font-style:italic;
+}
+
+footer{
+    text-align: center;
+    color: aliceblue;
+    height: 200px;
+    background-image: url("../img/down.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
